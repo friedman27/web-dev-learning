@@ -13,7 +13,7 @@
 
 ## Set up server
 
-5. Set up localhost at port 3000
+5. Set up localhost at port 3000 in js file
 
    ```
    const app = express();
@@ -25,3 +25,6 @@
    ```
 
    _Access in browser at localhost:3000_
+
+6. Run server on local machine using bash cmd line (in project directory)
+   `nodemon index.js`
